@@ -19,7 +19,7 @@ var db_lock= require('<module name>')
 
 # Dynamodb lock
 
-BY default this module create a table.if you want to use specify customs table in the enviroment using the LOCK_TABLE variable. In the customs table only have the primary key which is LockName and  enable the Time to live attribute on ttl [refer this link](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/time-to-live-ttl-how-to.html)
+BY default this module create a table.if you want to use specify customs table create the enviroment variable   *LOCK_TABLE . In the customs table only have the primary key which is LockName and  enable the Time to live attribute on ttl [refer this link](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/time-to-live-ttl-how-to.html)
 
 
 
