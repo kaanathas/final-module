@@ -1,6 +1,6 @@
 # description
  
- This module support for redis and dynamodb database. It is use to lock one date using  #aquire_lock() function and release the lock release_lock() function. it is support the timeout for the lock to both database. The parameter of the timeout it different  for redis use time in seconds and dynamodb use timestamp in seconds. when you call the init method pass the Database url and the Database name 
+ This module support for redis and dynamodb database. It is use to lock one data using  `aquire_lock()` function and release the lock by `release_lock()` function. it is support the timeout for the lock to both database. The parameter of the timeout it different  for redis use time in seconds and dynamodb use timestamp in seconds. when you call the init method pass the Database url and the Database name 
 
 #  Redis Lock
 
